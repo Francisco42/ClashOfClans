@@ -8,7 +8,7 @@ namespace ClashOfClans
 {
     class Globo:Tropa_Normal
     {
-        public Globo(string nombre, int daño, int velocidad, string tipo, string moneda, int vida, int costo, int nivel,int espacioOcupado) : base(nombre, daño, velocidad, tipo, moneda, vida, costo, nivel, espacioOcupado)
+        public Globo()
         {
             this.nombre = "Globo";
             this.daño = 25;
