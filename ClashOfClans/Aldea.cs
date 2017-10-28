@@ -28,7 +28,10 @@ namespace ClashOfClans
             this.cant_ElixirO = oscuro;
 
         }
-
+        /// <summary>
+        /// agrega una entidad a la aldea
+        /// </summary>
+        /// <param name="e"> la entidad a agregar </param>
         public void AgregarEntidad (Entidad e)
         {
             if(e is IEdificio)
